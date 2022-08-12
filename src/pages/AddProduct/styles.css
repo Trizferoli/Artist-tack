@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  margin-top: 62px
+}
+
+.main-containter {
+  position: relative;
+
+}
+
+.main-content-add-product {
+  width: 100vw;
+  height: calc(100% - 112px);
+
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+
+
+.main-content-add-product {
+  width: 400px;
+  margin: 48px 85px 33px 85px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

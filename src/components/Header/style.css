@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-background {
+    background-color: #434343;
+    color: #AAA5A5;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.header-background img,
+h1 {
+    transition: transform .1s;
+}
+
+.header-background img:hover,
+.header-background h1:hover {
+    transform: scale(1.1);
+}
